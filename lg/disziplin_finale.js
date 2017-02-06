@@ -25,7 +25,7 @@ module.exports = {
 			serienLength: 10,
 			anzahlShots: 0,
 			showInfos: true,
-			zehntel: false,
+			zehntel: true,
 			time: {
 				enabled: false,
 				duration: 0,
@@ -43,7 +43,7 @@ module.exports = {
 			mainPart: true,
 			neueScheibe: false,
 			serienLength: 10,
-			anzahlShots: 10,
+			anzahlShots: 20,
 			showInfos: true,
 			zehntel: true,
 			time: {
