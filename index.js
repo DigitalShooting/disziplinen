@@ -8,6 +8,7 @@ var lg = {
 	demo_blank: 	require("./lg/disziplin_demo_blank.js"),
 	demo: 			require("./lg/disziplin_demo.js"),
 	finale: 		require("./lg/disziplin_finale.js"),
+	gauKoenig:	require("./lg/disziplin_gauKoenig.js"),
 	training: 		require("./lg/disziplin_training.js"),
 	training_5: 	require("./lg/disziplin_training_5.js"),
 	wettkampf: 		require("./lg/disziplin_wettkampf.js"),
@@ -18,6 +19,7 @@ var lp = {
 	demo: 			require("./lp/disziplin_demo.js"),
 	demo_strich: 	require("./lp/disziplin_demo_strich.js"),
 	finale: 		require("./lp/disziplin_finale.js"),
+	gauKoenig:	require("./lp/disziplin_gauKoenig.js"),
 	strich: 		require("./lp/disziplin_strich.js"),
 	training: 		require("./lp/disziplin_training.js"),
 	training_5: 	require("./lp/disziplin_training_5.js"),
@@ -34,6 +36,7 @@ all[lg.blank._id] =					lg.blank;
 all[lg.demo._id] =					lg.demo;
 all[lg.demo_blank._id] =			lg.demo_blank;
 all[lg.finale._id] =				lg.finale;
+all[lg.gauKoenig._id] =				lg.gauKoenig;
 all[lg.training._id] =				lg.training;
 all[lg.training_5._id] =			lg.training_5;
 all[lg.wettkampf._id] =				lg.wettkampf;
@@ -43,6 +46,7 @@ all[lp.auflage._id] =				lp.auflage;
 all[lp.demo._id] =					lp.demo;
 all[lp.demo_strich._id] =			lp.demo_strich;
 all[lp.finale._id] =				lp.finale;
+all[lp.gauKoenig._id] =				lp.gauKoenig;
 all[lp.strich._id] =				lp.strich;
 all[lp.training._id] =				lp.training;
 all[lp.training_5._id] =			lp.training_5;
@@ -60,6 +64,7 @@ module.exports = {
 				lg.auflage._id,
 				lg.blank._id,
 				lg.dreiStellung._id,
+				lg.gauKoenig._id,
 			]
 		},
 		{
@@ -72,6 +77,7 @@ module.exports = {
 				lp.auflage._id,
 				lp.blank._id,
 				lp.strich._id,
+				lp.gauKoenig._id,
 			]
 		},
 		{
