@@ -4,13 +4,11 @@ module.exports = {
 	_id: "lp_gauKoenig",
 	title: "Gaukönigsschießen",
 	interface: {
-		// name: "esa",
-		// band: {
-		// 	onChangePart: 5,
-		// 	onShot: 2,
-		// },
-		name: "demo",
-		time: 2500,
+		name: "esa",
+		band: {
+			onChangePart: 5,
+			onShot: 2,
+		},
 	},
 	time: {
 		enabled: false,
