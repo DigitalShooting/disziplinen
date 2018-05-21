@@ -1,11 +1,11 @@
 var zoom = require("./zoom.js");
 
 module.exports = {
-	title: "LG 10m",
+	title: "LG 10m (GPK)",
 	ringe: [
-		{ value: 10, width:  0.5,color: "black",  text: false, textColor: "black", zoomScale: 3, zoom: zoom.z3, hitColor: "red" },
-		{ value:  9, width:  5.5, color: "black", text: false, textColor: "black", zoomScale: 3, zoom: zoom.z3, hitColor: "green" },
-		{ value:  8, width: 10.5, color: "black", text: false, textColor: "white", zoomScale: 2, zoom: zoom.z2, hitColor: "yellow" },
+		{ value: 10, width:  0.5,color: "black",  text: false, textColor: "black", zoomScale: 2, zoom: zoom.z2, hitColor: "red" },
+		{ value:  9, width:  5.5, color: "black", text: false, textColor: "white", zoomScale: 2, zoom: zoom.z2, hitColor: "green" },
+		{ value:  8, width: 10.5, color: "black", text: true, textColor: "white", zoomScale: 2, zoom: zoom.z2, hitColor: "yellow" },
 		{ value:  7, width: 15.5, color: "black", text: true,  textColor: "white", zoomScale: 2, zoom: zoom.z2, hitColor: "#00bffF" },
 		{ value:  6, width: 20.5, color: "black", text: true,  textColor: "white", zoomScale: 2, zoom: zoom.z2, hitColor: "#00bffF" },
 		{ value:  5, width: 25.5, color: "black", text: true,  textColor: "white", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },

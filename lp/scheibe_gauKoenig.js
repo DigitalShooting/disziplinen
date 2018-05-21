@@ -1,10 +1,10 @@
 var zoom = require("./zoom.js");
 
 module.exports = {
-	title: "LP 10m",
+	title: "LP 10m (GPK)",
 	ringe: [
-		{ value: 10, width:  11.5, color: "black", text: false, textColor: "black", zoomScale: 4, zoom: zoom.z4, hitColor: "red" },
-		{ value:  9, width:  27.5, color: "black", text: false,  textColor: "white", zoomScale: 4, zoom: zoom.z4, hitColor: "green" },
+		{ value: 10, width:  11.5, color: "black", text: false, textColor: "white", zoomScale: 4, zoom: zoom.z4, hitColor: "red" },
+		{ value:  9, width:  27.5, color: "black", text: true,  textColor: "white", zoomScale: 4, zoom: zoom.z4, hitColor: "green" },
 		{ value:  8, width:  43.5, color: "black", text: true,  textColor: "white", zoomScale: 3, zoom: zoom.z3, hitColor: "yellow" },
 		{ value:  7, width:  59.5, color: "black", text: true,  textColor: "white", zoomScale: 3, zoom: zoom.z3, hitColor: "#00bffF" },
 		{ value:  6, width:  75.5, color: "white", text: true,  textColor: "black", zoomScale: 2, zoom: zoom.z2, hitColor: "#00bffF" },
@@ -14,7 +14,9 @@ module.exports = {
 		{ value:  2, width: 139.5, color: "white", text: true,  textColor: "black", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  1, width: 155.5, color: "white", text: true,  textColor: "black", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
 	],
-	ringeDrawOnly: [],
+	ringeDrawOnly: [
+		// { width:  5.0, color: "black", textColor: "white" },
+	],
 	rechteckDrawOnly: [],
 	defaultHitColor: "#000000",
 	defaultZoom: zoom.z1,
