@@ -3,11 +3,11 @@ var zoom = require("./zoom.js");
 module.exports = {
 	title: "LG 10m Blank",
 	ringe: [
-		{ value: 10, width:  0.5, color: "black", text: false, textColor: "transparent", zoomScale: 3, zoom: zoom.z1, hitColor: "#00bffF" },
+		{ value: 10, width:  0.5, color: "black", text: false, textColor: "transparent", zoomScale: 4, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  9, width:  5.5, color: "black", text: false, textColor: "transparent", zoomScale: 3, zoom: zoom.z1, hitColor: "#00bffF" },
-		{ value:  8, width: 10.5, color: "black", text: false, textColor: "transparent", zoomScale: 2, zoom: zoom.z1, hitColor: "#00bffF" },
+		{ value:  8, width: 10.5, color: "black", text: false, textColor: "transparent", zoomScale: 2.7, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  7, width: 15.5, color: "black", text: false, textColor: "transparent", zoomScale: 2, zoom: zoom.z1, hitColor: "#00bffF" },
-		{ value:  6, width: 20.5, color: "black", text: false, textColor: "transparent", zoomScale: 2, zoom: zoom.z1, hitColor: "#00bffF" },
+		{ value:  6, width: 20.5, color: "black", text: false, textColor: "transparent", zoomScale: 1.5, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  5, width: 25.5, color: "black", text: false, textColor: "transparent", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  4, width: 30.5, color: "black", text: false, textColor: "transparent", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  3, width: 35.5, color: "white", text: false, textColor: "transparent", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
