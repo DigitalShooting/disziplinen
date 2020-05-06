@@ -13,6 +13,7 @@ module.exports = {
 		instantStart: false,
 	},
 	scheibe: scheibe,
+	partsOrder: ["probe"],
 	parts: {
 		probe: {
 			title: "Probe",

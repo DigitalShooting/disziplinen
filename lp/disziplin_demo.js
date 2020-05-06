@@ -6,6 +6,7 @@ module.exports = {
 	interface: {
 		name: "demo",
 		time: 2500,
+		limit: 40,
 	},
 	time: {
 		enabled: true,
@@ -13,6 +14,7 @@ module.exports = {
 		instantStart: false,
 	},
 	scheibe: scheibe,
+	partsOrder: ["probe", "match"],
 	parts: {
 		probe: {
 			title: "Probe",

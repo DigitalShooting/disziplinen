@@ -16,6 +16,7 @@ module.exports = {
 		instantStart: false,
 	},
 	scheibe: scheibe,
+	partsOrder: ["probeK", "matchK", "probeL", "matchL", "probeS", "matchS"],
 	parts: {
 		probeK: {
 			title: "Probe (Kniend)",
