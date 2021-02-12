@@ -8,7 +8,7 @@ module.exports = {
 		{ value:  8, width:  43.5, color: "black", text: true,  textColor: "white", zoomScale: 2.7, zoom: zoom.z3, hitColor: "yellow" },
 		{ value:  7, width:  59.5, color: "black", text: true,  textColor: "white", zoomScale: 2, zoom: zoom.z3, hitColor: "#00bffF" },
 		{ value:  6, width:  75.5, color: "white", text: true,  textColor: "black", zoomScale: 1.5, zoom: zoom.z2, hitColor: "#00bffF" },
-		{ value:  5, width:  91.5, color: "white", text: true,  textColor: "black", zoomScale: 2, zoom: zoom.z2, hitColor: "#00bffF" },
+		{ value:  5, width:  91.5, color: "white", text: true,  textColor: "black", zoomScale: 1.25, zoom: zoom.z2, hitColor: "#00bffF" },
 		{ value:  4, width: 107.5, color: "white", text: true,  textColor: "black", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  3, width: 123.5, color: "white", text: true,  textColor: "black", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
 		{ value:  2, width: 139.5, color: "white", text: true,  textColor: "black", zoomScale: 1, zoom: zoom.z1, hitColor: "#00bffF" },
