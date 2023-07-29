@@ -1,7 +1,7 @@
 var scheibe = require("./scheibe.js");
 
 module.exports = {
-	_id: "lp_training_reddot",
+	_id: "lg_training_reddot",
 	title: "Training RedDot",
 	interface: {
 		name: "reddot",

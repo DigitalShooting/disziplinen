@@ -11,6 +11,7 @@ var lg = {
 	training: 		require("./lg/disziplin_training.js"),
 	training_5: 	require("./lg/disziplin_training_5.js"),
 	wettkampf: 		require("./lg/disziplin_wettkampf.js"),
+	training_reddot: 		require("./lg/disziplin_training_reddot.js"),
 };
 var lp = {
 	blank: 			require("./lp/disziplin_blank.js"),
@@ -22,7 +23,7 @@ var lp = {
 	training: 		require("./lp/disziplin_training.js"),
 	training_5: 	require("./lp/disziplin_training_5.js"),
 	wettkampf: 		require("./lp/disziplin_wettkampf.js"),
-	lp_training_reddot: require("./lp/disziplin_training_reddot.js"),
+	training_reddot: require("./lp/disziplin_training_reddot.js"),
 };
 
 
@@ -38,6 +39,7 @@ all[lg.finale._id] =				lg.finale;
 all[lg.training._id] =				lg.training;
 all[lg.training_5._id] =			lg.training_5;
 all[lg.wettkampf._id] =				lg.wettkampf;
+all[lg.training_reddot._id] =	lg.training_reddot;
 
 all[lp.blank._id] =					lp.blank;
 all[lp.auflage._id] =				lp.auflage;
@@ -48,7 +50,7 @@ all[lp.finale._id] =				lp.finale;
 all[lp.training._id] =				lp.training;
 all[lp.training_5._id] =			lp.training_5;
 all[lp.wettkampf._id] =				lp.wettkampf;
-all[lp.lp_training_reddot._id] =				lp.lp_training_reddot;
+all[lp.training_reddot._id] =				lp.training_reddot;
 
 module.exports = {
 	groups: [
@@ -62,6 +64,7 @@ module.exports = {
 				lg.auflage._id,
 				lg.blank._id,
 				lg.dreiStellung._id,
+				lg.training_reddot._id;
 			]
 		},
 		{
@@ -74,7 +77,7 @@ module.exports = {
 				lp.auflage._id,
 				lp.blank._id,
 				// lp.strich._id,
-				lp.lp_training_reddot._id,
+				lp.training_reddot._id,
 			]
 		},
 		{
