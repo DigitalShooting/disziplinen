@@ -64,7 +64,7 @@ module.exports = {
 				lg.auflage._id,
 				lg.blank._id,
 				lg.dreiStellung._id,
-				lg.training_reddot._id;
+				lg.training_reddot._id,
 			]
 		},
 		{
