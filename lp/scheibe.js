@@ -27,7 +27,7 @@ module.exports = {
 	kugelDurchmesser: 4.5,
 	interface: {
 		reddot: {
-			targetMode: "1",
+			targetMode: "0",
 		},
 	},
 };
