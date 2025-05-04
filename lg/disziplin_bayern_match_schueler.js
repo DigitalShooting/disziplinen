@@ -2,7 +2,7 @@ var scheibe = require("./scheibe.js");
 
 module.exports = {
 	_id: "lg_bayern_match_schueler",
-	title: "Bayern Match Schüler",
+	title: "Bayern Match Schüler 2025", // Neue Ausschreibung
 	interface: {
 		name: "esa",
 		band: {
@@ -34,7 +34,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 30,
+				anzahl: 20, // Neue Ausschreibung
 			},
 			exitType: "",
 		},
@@ -43,8 +43,8 @@ module.exports = {
 			probeEcke: false,
 			mainPart: true,
 			neueScheibe: false,
-			serienLength: 5,
-			anzahlShots: 30,
+			serienLength: 10, // Standardserienlänge
+			anzahlShots: 20, // Neue Ausschreibung
 			showInfos: true,
 			zehntel: true,
 			time: {
@@ -54,7 +54,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 30,
+				anzahl: 20, // Neue Ausschreibung
 			},
 			exitType: "beforeFirst",
 		},

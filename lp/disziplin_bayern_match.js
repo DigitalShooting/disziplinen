@@ -2,7 +2,7 @@ var scheibe = require("./scheibe.js");
 
 module.exports = {
 	_id: "lp_bayern_match",
-	title: "Bayern Match",
+	title: "Bayern Match 2025", // Um Irritation zu meiden
 	interface: {
 		name: "esa",
 		band: {
@@ -34,7 +34,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 50,
+				anzahl: 40, // Neue Ausschreibung
 			},
 			exitType: "",
 		},
@@ -44,7 +44,7 @@ module.exports = {
 			mainPart: true,
 			neueScheibe: false,
 			serienLength: 10,
-			anzahlShots: 40,
+			anzahlShots: 40, // Neue Ausschreibung
 			showInfos: true,
 			zehntel: true,
 			time: {
@@ -54,7 +54,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 50,
+				anzahl: 40, // Neue Ausschreibung
 			},
 			exitType: "beforeFirst",
 		},
