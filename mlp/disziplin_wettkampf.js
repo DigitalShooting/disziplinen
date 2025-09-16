@@ -1,7 +1,7 @@
 var scheibe = require("./scheibe.js");
 
 module.exports = {
-	_id: "lp_wettkampf",
+	_id: "mlp_schnellfeuer_wettkampf",
 	title: "Wettkampf",
 	interface: {
 		name: "esa",
