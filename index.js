@@ -7,11 +7,12 @@ var lg = {
 	blank: 			require("./lg/disziplin_blank.js"),
 	demo_blank: 	require("./lg/disziplin_demo_blank.js"),
 	demo: 			require("./lg/disziplin_demo.js"),
-	finale: 		require("./lg/disziplin_finale.js"),
+	// finale: 		require("./lg/disziplin_finale.js"),
 	training: 		require("./lg/disziplin_training.js"),
 	training_5: 	require("./lg/disziplin_training_5.js"),
 	wettkampf: 		require("./lg/disziplin_wettkampf.js"),
 	training_reddot: 		require("./lg/disziplin_training_reddot.js"),
+	training_reddot_auflage: 		require("./lg/disziplin_training_reddot_auflage.js"),
 	bayern_match: 		require("./lg/disziplin_bayern_match.js"),
 	bayern_match_schueler: 		require("./lg/disziplin_bayern_match_schueler.js"),
 };
@@ -20,7 +21,7 @@ var lp = {
 	auflage: 		require("./lp/disziplin_auflage.js"),
 	demo: 			require("./lp/disziplin_demo.js"),
 	// demo_strich: 	require("./lp/disziplin_demo_strich.js"),
-	finale: 		require("./lp/disziplin_finale.js"),
+	// finale: 		require("./lp/disziplin_finale.js"),
 	// strich: 		require("./lp/disziplin_strich.js"),
 	training: 		require("./lp/disziplin_training.js"),
 	training_5: 	require("./lp/disziplin_training_5.js"),
@@ -28,6 +29,11 @@ var lp = {
 	training_reddot: require("./lp/disziplin_training_reddot.js"),
 	bayern_match: require("./lp/disziplin_bayern_match.js"),
 };
+
+var mlp = {
+	training: 		require("./mlp/disziplin_training.js"),
+	wettkampf: 		require("./mlp/disziplin_wettkampf.js"),
+}; //Ergänzt
 
 
 var all = {};
@@ -38,25 +44,29 @@ all[lg.auflage._id] =				lg.auflage;
 all[lg.blank._id] =					lg.blank;
 all[lg.demo._id] =					lg.demo;
 all[lg.demo_blank._id] =			lg.demo_blank;
-all[lg.finale._id] =				lg.finale;
+//all[lg.finale._id] =				lg.finale;
 all[lg.training._id] =				lg.training;
 all[lg.training_5._id] =			lg.training_5;
 all[lg.wettkampf._id] =				lg.wettkampf;
-all[lg.training_reddot._id] =	lg.training_reddot;
-all[lg.bayern_match._id] =	lg.bayern_match;
+all[lg.training_reddot._id] =		lg.training_reddot;
+all[lg.training_reddot_auflage._id]=	lg.training_reddot_auflage;
+all[lg.bayern_match._id] =			lg.bayern_match;
 all[lg.bayern_match_schueler._id] =	lg.bayern_match_schueler;
 
 all[lp.blank._id] =					lp.blank;
 all[lp.auflage._id] =				lp.auflage;
 all[lp.demo._id] =					lp.demo;
 // all[lp.demo_strich._id] =			lp.demo_strich;
-all[lp.finale._id] =				lp.finale;
+// all[lp.finale._id] =				lp.finale;
 // all[lp.strich._id] =				lp.strich;
 all[lp.training._id] =				lp.training;
 all[lp.training_5._id] =			lp.training_5;
 all[lp.wettkampf._id] =				lp.wettkampf;
-all[lp.training_reddot._id] =				lp.training_reddot;
-all[lp.bayern_match._id] =				lp.bayern_match;
+all[lp.training_reddot._id] =		lp.training_reddot;
+all[lp.bayern_match._id] =			lp.bayern_match;
+
+all[mlp.training._id] =				mlp.training; //Ergänzung
+all[mlp.wettkampf] =				mlp.wettkampf
 
 module.exports = {
 	groups: [
@@ -64,13 +74,14 @@ module.exports = {
 			title: "LG",
 			disziplinen: [
 				lg.wettkampf._id,
-				lg.finale._id,
+				// lg.finale._id,
 				lg.training._id,
 				lg.training_5._id,
 				lg.auflage._id,
 				lg.blank._id,
 				lg.dreiStellung._id,
 				lg.training_reddot._id,
+				lg.training_reddot_auflage._id,
 				lg.bayern_match._id,
 				lg.bayern_match_schueler._id,
 			]
@@ -79,7 +90,7 @@ module.exports = {
 			title: "LP",
 			disziplinen: [
 				lp.wettkampf._id,
-				lp.finale._id,
+				// lp.finale._id,
 				lp.training._id,
 				lp.training_5._id,
 				lp.auflage._id,
@@ -87,6 +98,13 @@ module.exports = {
 				// lp.strich._id,
 				lp.training_reddot._id,
 				lp.bayern_match._id,
+			]
+		},
+		{
+			title: "MLP",
+			disziplinen: [
+				mlp.wettkampf._id,
+				mlp.training._id,
 			]
 		},
 		{

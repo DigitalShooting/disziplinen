@@ -7,12 +7,12 @@ module.exports = {
 		name: "esa",
 		band: {
 			onChangePart: 5,
-			onShot: 3,
+			onShot: 3,  //Was macht dieser Index?
 		},
 	},
 	time: {
 		enabled: true,
-		duration: 65,
+		duration: 0, //Keine Dauer da zusätzlich sowieso eine Ampel genutzt werden muss.
 		instantStart: false,
 	},
 	scheibe: scheibe,
@@ -23,7 +23,7 @@ module.exports = {
 			probeEcke: true,
 			mainPart: false,
 			neueScheibe: false,
-			serienLength: 10,
+			serienLength: 5, //Üblich für MLP
 			anzahlShots: 0,
 			showInfos: true,
 			zehntel: false,
@@ -34,7 +34,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40,
+				anzahl: 20, //Übliches Wettkampfprogramm im Schnellfeuerteil
 			},
 			exitType: "",
 		},
@@ -43,8 +43,8 @@ module.exports = {
 			probeEcke: false,
 			mainPart: true,
 			neueScheibe: false,
-			serienLength: 10,
-			anzahlShots: 40,
+			serienLength: 5, //Standard MLP
+			anzahlShots: 20, //Standard MLP
 			showInfos: true,
 			zehntel: false,
 			time: {
@@ -54,7 +54,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40,
+				anzahl: 20,
 			},
 			exitType: "beforeFirst",
 		},
