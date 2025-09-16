@@ -2,7 +2,7 @@ var scheibe = require("./scheibe.js");
 
 module.exports = {
 	_id: "lg_bayern_match",
-	title: "Bayern Match 2025", // Zur Differenzierung für weniger Verwirrung
+	title: "Bayern Match",
 	interface: {
 		name: "esa",
 		band: {
@@ -34,7 +34,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40, // Neue Ausschreibung
+				anzahl: 50,
 			},
 			exitType: "",
 		},
@@ -43,8 +43,8 @@ module.exports = {
 			probeEcke: false,
 			mainPart: true,
 			neueScheibe: false,
-			serienLength: 10, // Standardserienlänge auch bei LG ist 10
-			anzahlShots: 40, // Neue Ausschreibung
+			serienLength: 5,
+			anzahlShots: 50,
 			showInfos: true,
 			zehntel: true,
 			time: {
@@ -54,7 +54,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40, // Neue Ausschreibung nur 40 Schuss
+				anzahl: 50,
 			},
 			exitType: "beforeFirst",
 		},

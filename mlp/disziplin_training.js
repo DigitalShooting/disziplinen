@@ -1,18 +1,18 @@
 var scheibe = require("./scheibe.js");
 
 module.exports = {
-	_id: "lp_wettkampf",
-	title: "Wettkampf",
+	_id: "mlp_schnellfeuer_training",
+	title: "Training",
 	interface: {
 		name: "esa",
 		band: {
 			onChangePart: 5,
-			onShot: 3,
+			onShot: 2,
 		},
 	},
 	time: {
-		enabled: true,
-		duration: 65,
+		enabled: false,
+		duration: 0,
 		instantStart: false,
 	},
 	scheibe: scheibe,
@@ -22,8 +22,8 @@ module.exports = {
 			title: "Probe",
 			probeEcke: true,
 			mainPart: false,
-			neueScheibe: false,
-			serienLength: 10,
+			neueScheibe: true,
+			serienLength: 5, //übliche Serienlänge im MLP bereich
 			anzahlShots: 0,
 			showInfos: true,
 			zehntel: false,
@@ -34,7 +34,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40,
+				anzahl: 20, //übliches Programm sind 20
 			},
 			exitType: "",
 		},
@@ -42,9 +42,9 @@ module.exports = {
 			title: "Match",
 			probeEcke: false,
 			mainPart: true,
-			neueScheibe: false,
-			serienLength: 10,
-			anzahlShots: 40,
+			neueScheibe: true,
+			serienLength: 5, //übliche Serienlänge im MLP bereich
+			anzahlShots: 0,
 			showInfos: true,
 			zehntel: false,
 			time: {
@@ -54,9 +54,9 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40,
+				anzahl: 20,//übliches Programm sind 20
 			},
-			exitType: "beforeFirst",
+			exitType: "",
 		},
 	},
 };

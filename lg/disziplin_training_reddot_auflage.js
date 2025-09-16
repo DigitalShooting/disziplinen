@@ -1,18 +1,14 @@
 var scheibe = require("./scheibe.js");
 
 module.exports = {
-	_id: "lp_wettkampf",
-	title: "Wettkampf",
+	_id: "lg_training_reddot_auflage",
+	title: "Training RedDot Auflage",
 	interface: {
-		name: "esa",
-		band: {
-			onChangePart: 5,
-			onShot: 3,
-		},
+		name: "reddot",
 	},
 	time: {
-		enabled: true,
-		duration: 65,
+		enabled: false,
+		duration: 0,
 		instantStart: false,
 	},
 	scheibe: scheibe,
@@ -22,11 +18,11 @@ module.exports = {
 			title: "Probe",
 			probeEcke: true,
 			mainPart: false,
-			neueScheibe: false,
+			neueScheibe: true,
 			serienLength: 10,
 			anzahlShots: 0,
 			showInfos: true,
-			zehntel: false,
+			zehntel: true,
 			time: {
 				enabled: false,
 				duration: 0,
@@ -34,7 +30,7 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40,
+				anzahl: 20,
 			},
 			exitType: "",
 		},
@@ -42,11 +38,11 @@ module.exports = {
 			title: "Match",
 			probeEcke: false,
 			mainPart: true,
-			neueScheibe: false,
+			neueScheibe: true,
 			serienLength: 10,
-			anzahlShots: 40,
+			anzahlShots: 0,
 			showInfos: true,
-			zehntel: false,
+			zehntel: true,
 			time: {
 				enabled: false,
 				duration: 0,
@@ -54,9 +50,9 @@ module.exports = {
 			},
 			average: {
 				enabled: true,
-				anzahl: 40,
+				anzahl: 20,
 			},
-			exitType: "beforeFirst",
+			exitType: "",
 		},
 	},
 };
