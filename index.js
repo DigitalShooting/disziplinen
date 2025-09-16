@@ -66,7 +66,7 @@ all[lp.training_reddot._id] =		lp.training_reddot;
 all[lp.bayern_match._id] =			lp.bayern_match;
 
 all[mlp.training._id] =				mlp.training; //Ergänzung
-all[mlp.wettkampf] =				mlp.wettkampf
+all[mlp.wettkampf._id] =				mlp.wettkampf
 
 module.exports = {
 	groups: [
